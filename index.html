@@ -1,0 +1,84 @@
+<!-- https://github.com/PLP-WebTechnologies/july-2025-introduction-to-html-5-Duncanmaina58.git -->
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore semantic HTML5, web accessibility, and basic SEO principles through a well-structured example page. Learn about human and machine readability.">
+    <meta name="keywords" content="HTML5, semantic HTML, web accessibility, SEO basics, structured web page, screen readers, discoverability, web development">
+    <title>Semantic HTML5, Accessibility & SEO Guide</title>
+</head>
+<body>
+
+    <header>
+        <h1>Mastering Semantic HTML5 for Better Web Design</h1>
+        <p>Your guide to building web pages that are both user-friendly and search engine optimized.</p>
+    </header>
+
+    <nav aria-label="Main Navigation">
+        <ul>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#semantic-elements">Semantic HTML Elements</a></li>
+            <li><a href="#accessibility-tips">Accessibility Best Practices</a></li>
+            <li><a href="#seo-basics">SEO Fundamentals</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="introduction">
+            <h2>Understanding the Core Principles</h2>
+            <p>This page demonstrates how to combine modern HTML5 structuring with essential accessibility and SEO techniques. By focusing on meaningful tags, we improve how both people and machines interpret our content.</p>
+            <article>
+                <h3>Why Semantic HTML Matters</h3>
+                <p>Semantic HTML elements clearly describe their meaning to both the browser and the developer. For instance, an `&lt;article&gt;` tag distinctly defines a self-contained piece of content, unlike a generic `&lt;div&gt;`.</p>
+            </article>
+        </section>
+
+        <section id="semantic-elements">
+            <h2>Key Semantic HTML5 Elements</h2>
+            <p>Using these elements enhances document outline and content categorization:</p>
+            <ul>
+                <li><code>&lt;header&gt;</code>: Introduces content.</li>
+                <li><code>&lt;nav&gt;</code>: Navigation links.</li>
+                <li><code>&lt;main&gt;</code>: Main content of the document.</li>
+                <li><code>&lt;section&gt;</code>: Thematic grouping of content.</li>
+                <li><code>&lt;article&gt;</code>: Independent, self-contained content.</li>
+                <li><code>&lt;aside&gt;</code>: Content indirectly related to the main content.</li>
+                <li><code>&lt;footer&gt;</code>: Contains boilerplate information.</li>
+            </ul>
+            <p>Proper application of these elements improves readability and helps assistive technologies navigate your page more effectively.</p>
+        </section>
+
+        <section id="accessibility-tips">
+            <h2>Building for Web Accessibility</h2>
+            <p>Accessibility ensures that web content is usable by everyone, regardless of their abilities. Here are some fundamental tips:</p>
+            <h3>Heading Hierarchy and Landmark Roles</h3>
+            <p>Using headings (`&lt;h1&gt;` through `&lt;h6&gt;`) in a logical order creates a document outline. Semantic HTML5 elements (`&lt;header&gt;`, `&lt;nav&gt;`, `&lt;main&gt;`, `&lt;footer&gt;`, `&lt;aside&gt;`) implicitly provide "landmark" roles, helping screen reader users jump to different sections of a page.</p>
+            <aside>
+                <h4>Quick Accessibility Check:</h4>
+                <p>Can you navigate your page effectively using only the Tab key? Does a screen reader announce meaningful information?</p>
+            </aside>
+        </section>
+
+        <section id="seo-basics">
+            <h2>Fundamental SEO Principles</h2>
+            <p>Search Engine Optimization helps search engines understand and rank your content. Good HTML structure is a strong foundation for SEO.</p>
+            <h3>Content and Keywords</h3>
+            <p>Ensure your primary keywords are naturally integrated into your `&lt;title&gt;` tag, `&lt;meta name="description"&gt;`, `&lt;h1&gt;` and other heading tags, and within your body content. Write clearly and concisely for your human readers first; search engine crawlers will follow.</p>
+            <article>
+                <h4>Title Tags and Meta Descriptions</h4>
+                <p>The `&lt;title&gt;` tag is crucial for both user experience and SEO, appearing in browser tabs and search results. The `&lt;meta name="description"&gt;` provides a snippet for search results, encouraging clicks.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <p>&copy; 2025 Semantic Web Learning. All rights reserved.</p>
+        <address>
+            For more information, contact us at <a href="mailto:info@example.com">info@example.com</a>
+        </address>
+    </footer>
+
+</body>
+</html>
